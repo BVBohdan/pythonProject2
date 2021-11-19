@@ -1,0 +1,27 @@
+#task 2
+#a,b,c,d
+print('a', 'b', 'c', 'd', sep=',')
+#42 / 7 = 6
+print('42', '/', '7', '=', '6')
+#Petro and Bohdan vs Ivan and Boris.
+print('Petro', 'Bohdan', sep=' and ', end=' vs ')
+print('Ivan', 'Boris', sep=' and ', end='.')
+
+#This is new string.
+#Now it's begins from new string.
+#	And now from tabulation and new string
+print("This is new string.\nNow it's begins from new string. \n\tAnd now it's tabulation and new string")
+
+#task 3 (capital letter “O”)
+print('#########')
+print('#', '#', sep='\t\t')
+print('#', '#', sep='\t\t')
+print('#', '#', sep='\t\t')
+print('#########')
+
+#task 3 (capital letter “H”), with lots of using \n,\t
+print('#', '#', sep='\t\t', end='\n#')
+print('', '#', sep='\t\t', end='\n#')
+print('########', end='\n#')
+print('', '#', sep='\t\t', end='\n#')
+print('', '#', sep='\t\t')
